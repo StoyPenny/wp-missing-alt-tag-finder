@@ -1,0 +1,81 @@
+h1 {
+	text-align: center;
+}
+.cs_mat_count {
+	color: red;
+}
+.media-missing-alt-tags {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-right: 0.5rem;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.media-item {
+	background-color: #e5e5e5;
+	border: solid 1px #dbdbdb;
+	border-radius: 0.6rem;
+	padding: 0.25rem 0.25rem 1.25rem;
+	width: 98%;
+	margin: 3vh 1%;
+}
+.media-item header {
+	background-color: #d2d1d1;
+	border-top-left-radius: 0.3rem;
+	border-top-right-radius: 0.3rem;
+}
+.media-item img {
+    display: block;
+    margin: 0 auto;
+}
+.media-item .image-name {
+	margin-bottom: 0.3rem;
+}
+.media-item .media-type {
+	margin-bottom: 2.1rem;
+}
+.btn {
+	display: inline-block;
+	padding: 0.5rem 0.75rem;
+	border: solid 2px;
+	text-decoration: none;
+	margin: 0rem 0.5rem;
+	width: 30%;
+	border-radius: 0.3rem;
+}
+.btn.btn-default {
+	border-color: #ccc;
+	background: #f7f7f7;
+	box-shadow: 0 1px 0 #ccc;
+}
+.btn.btn-primary {
+	background-color: #0073a9;
+	border-color: #00547b;
+	box-shadow: 0 1px 0 #00547b;
+	color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+	.media-item {
+		width: 42%;
+		margin: 2%;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.media-item {
+		width: 30%;
+		margin: 1%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.media-item {
+		width: 21%;
+		margin: 1.25%;
+	}
+}
