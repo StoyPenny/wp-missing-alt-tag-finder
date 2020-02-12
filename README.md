@@ -1,2 +1,2 @@
-# wp-missing-alt-tag-finder
-Easily find images with missing alt tags in your WordPress powered website.
+# WordPress Missing Alt Tag Finder
+Easily find images with missing alt tags on your WordPress powered website.
