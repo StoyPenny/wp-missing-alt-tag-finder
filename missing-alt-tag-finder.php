@@ -143,7 +143,7 @@ function showAllImagesMissingAltTags() {
 				<div class="media-type"><?php echo substr($value['type'], 6); ?></div>
 
 				<a class="btn btn-default" href="<?php echo $value['guid']; ?>" target="_blank">Full Size</a>
-				<a class="btn btn-primary" href="http://10.220.0.4/~csteurer/bang/wp-admin/upload.php?item=<?php echo $value['id']; ?>" target="_blank">Edit</a>
+				<a class="btn btn-primary" href="<?php echo get_site_url(); ?>/wp-admin/post.php?post=<?php echo $value['id']; ?>&action=edit" target="_blank">Edit</a>
 				
 			</li>
 			<?php
