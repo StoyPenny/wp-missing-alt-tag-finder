@@ -1,8 +1,8 @@
 <?php
 /*
 Plugin Name: Missing Alt Tag Finder
-Plugin URI: http://wordpress.org/extend/plugins/missing-alt-tag-finder/
-Version: 0.1
+Plugin URI: https://chrissteurer.com/
+Version: 0.3
 Author: Chris Steurer
 Description: Find images on your website that are missing alt tags.
 Text Domain: cs_missing-alt-tag-finder
